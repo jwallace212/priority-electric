@@ -1,0 +1,55 @@
+
+
+header{
+    background-color: black;
+    opacity: 75%;
+}
+
+body{
+    font-family: 'Poppin' roboto;
+    background-image: url(../images/lighting3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+.card header {
+    padding: 20px;
+    background: #13293d;
+    color: #fff;
+}
+
+.card {
+    padding: 10px;
+    width: 250px;
+    text-align: center;
+    border-style: hidden;
+    border-width: 1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 75%;
+    flex: 0 0 400px;
+    align-items: center;
+    margin:auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+carousel {
+    justify-content: center;
+}
+
+.carousel-inner img {
+    margin: auto;
+}
+
+Contacts {
+    text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
