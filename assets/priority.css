@@ -3,6 +3,13 @@
 header{
     background-color: black;
     opacity: 85%;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+img {
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px #000000;
 }
 
 body{
@@ -27,18 +34,25 @@ body{
 .card-header{
     color: white;
     text-shadow: 2px 2px 4px #000000;
+    border-radius: 25px;
 }
 .card {
     padding: 10px;
-    width: 250px;
+    width: 300px;
     text-align: center;
     border-style: hidden;
     border-width: 1px;
+    border-radius: 25px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     opacity: 85%;
     flex: 0 0 400px;
     align-items: center;
     margin:auto;
+}
+
+.card-text {
+    color: white;
+    text-shadow: 2px 2px 4px #000000
 }
 
 h1 {
@@ -54,7 +68,8 @@ h1 {
 
 .carousel-header {
     color: white;
-    text-shadow: 2px 2px 4px #000000
+    text-shadow: 2px 2px 4px #000000;
+    border-radius: 15px;
 }
 
 .carousel-inner img {
@@ -63,5 +78,6 @@ h1 {
 
 Contacts {
     text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 25px;
 }
 
