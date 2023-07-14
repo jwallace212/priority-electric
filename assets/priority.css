@@ -13,7 +13,7 @@ img {
 }
 
 body{
-    font-family: 'Poppin' roboto;
+    font-family: 'Poppins', roboto;
     background-image: url(../images/lighting3.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -21,8 +21,7 @@ body{
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
-    
+    background-size: cover;    
 }
 
 .card header {
@@ -42,7 +41,6 @@ body{
     text-align: center;
     border-style: hidden;
     border-width: 1px;
-    border-radius: 25px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     opacity: 85%;
     flex: 0 0 400px;
@@ -69,7 +67,8 @@ h1 {
 .carousel-header {
     color: white;
     text-shadow: 2px 2px 4px #000000;
-    border-radius: 15px;
+    
+
 }
 
 .carousel-inner img {
@@ -77,7 +76,8 @@ h1 {
 }
 
 Contacts {
-    text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 25px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+
 }
 
