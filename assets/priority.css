@@ -45,7 +45,7 @@ body{
     opacity: 85%;
     flex: 0 0 400px;
     align-items: center;
-    margin:auto;
+    margin: 0 auto;
     border-radius: 25px;
 }
 
@@ -63,6 +63,7 @@ h1 {
     margin: 0 auto;
     height: 500px;
     text-align: center;
+    border-radius: 25px;
 }
 
 .carousel-header {
@@ -73,11 +74,20 @@ h1 {
 
 .carousel-inner img {
     margin: auto;
+    width: auto;
+    height: 75%;
+    object-fit: contain;
+    border-radius: 25px;
 }
 
 Contacts {
     color: white;
     text-shadow: 1px 1px 2px #000000;
+    opacity: 75%;
 
+}
+
+Footer {
+    opacity: 75%;
 }
 
